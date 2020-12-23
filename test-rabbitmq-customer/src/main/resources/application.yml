@@ -1,0 +1,80 @@
+server:
+    port: 10001
+
+mybatis-plus:
+    mapper-locations: classpath:/mapper/**/*.xml
+    configuration:
+        jdbc-type-for-null: 'null'
+        map-underscore-to-camel-case: true
+    global-config:
+        # 关闭MP自带的banner
+        banner: false
+        db-config:
+            id-type: assign_id
+            capital-mode: true
+            #数据库类型
+            db-type: mysql
+
+spring:
+    application:
+        name: test-rabbitmq-customer
+    datasource:
+        driverClassName: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://localhost:3306/gen_code?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+        username: root
+        password: root
+        # Hikari 连接池配置
+        hikari:
+            # 此属性控制从池返回的连接的默认自动提交行为,默认值：true
+            auto-commit: true
+            connection-test-query: SELECT 1
+            # 数据库连接超时时间,默认30秒，即30000
+            connection-timeout: 30000
+            # 空闲连接存活最大时间，默认600000（10分钟）
+            idle-timeout: 180000
+            # 此属性控制池中连接的最长生命周期，值0表示无限生命周期，默认1800000即30分钟
+            max-lifetime: 1800000
+            # 连接池最大连接数，默认是10
+            maximum-pool-size: 20
+            minimum-idle: 5
+            pool-name: MyHikariCP
+    rabbitmq:
+        host: localhost
+        port: 5672
+        virtual-host: /test
+        username: guest
+        password: guest
+        # 发布消息成功到交换器后会触发回调方法
+        publisher-confirm-type: correlated
+        # 开启发送端消息抵达Queue确认
+        publisher-returns: true
+        listener:
+            simple:
+                # 开启rabbitmq的消费端重试机制,默认是false,默认重试3次
+                retry:
+                    enabled: true
+                    max-attempts: 5
+                    initial-interval: 5000ms
+                # 手动ack消息，不使用默认的消费端自动确认
+                acknowledge-mode: manual
+        template:
+            # 只要消息抵达Queue，就会异步发送优先回调returnfirm
+            mandatory: true
+            # 开启rabbitmq的生产端重试机制,默认是false,默认重试3次
+            retry:
+                enabled: true
+                max-attempts: 5
+                initial-interval: 5000ms
+logging:
+    level:
+        top.dongxibao.customer: debug
+    file:
+        path: ./logs
+        max-history: 30 # 日志文件存放的日期，单位：Day（天）
+
+# Swagger配置
+swagger:
+    # 是否开启swagger
+    enabled: true
+    # 请求前缀
+    pathMapping:

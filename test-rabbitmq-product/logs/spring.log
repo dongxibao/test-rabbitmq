@@ -1,0 +1,131 @@
+2020-12-23 09:36:00.245  INFO 20324 --- [main] .d.p.TestRabbitmqProductApplicationTests : Starting TestRabbitmqProductApplicationTests on PC-20201113KRFY with PID 20324 (started by Administrator in E:\test-code\test-rabbitmq\test-rabbitmq-product)
+2020-12-23 09:36:00.253 DEBUG 20324 --- [main] .d.p.TestRabbitmqProductApplicationTests : Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-12-23 09:36:00.253  INFO 20324 --- [main] .d.p.TestRabbitmqProductApplicationTests : No active profile set, falling back to default profiles: default
+2020-12-23 09:36:00.966  WARN 20324 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[top.dongxibao.product]' package. Please check your configuration.
+2020-12-23 09:36:02.335  INFO 20324 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-23 09:36:05.198  INFO 20324 --- [main] .d.p.TestRabbitmqProductApplicationTests : Started TestRabbitmqProductApplicationTests in 5.36 seconds (JVM running for 6.459)
+2020-12-23 09:36:05.454  INFO 20324 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2020-12-23 09:36:05.521  INFO 20324 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#1ab5f08a:0/SimpleConnection@518ddd3b [delegate=amqp://guest@127.0.0.1:5672//test, localPort= 64897]
+2020-12-23 09:36:05.610  INFO 20324 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-23 09:37:56.986  INFO 9936 --- [main] .d.p.TestRabbitmqProductApplicationTests : Starting TestRabbitmqProductApplicationTests on PC-20201113KRFY with PID 9936 (started by Administrator in E:\test-code\test-rabbitmq\test-rabbitmq-product)
+2020-12-23 09:37:56.987 DEBUG 9936 --- [main] .d.p.TestRabbitmqProductApplicationTests : Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-12-23 09:37:56.988  INFO 9936 --- [main] .d.p.TestRabbitmqProductApplicationTests : No active profile set, falling back to default profiles: default
+2020-12-23 09:37:57.509  WARN 9936 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[top.dongxibao.product]' package. Please check your configuration.
+2020-12-23 09:37:58.113  INFO 9936 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-23 09:37:59.421  INFO 9936 --- [main] .d.p.TestRabbitmqProductApplicationTests : Started TestRabbitmqProductApplicationTests in 2.809 seconds (JVM running for 3.629)
+2020-12-23 09:37:59.571  INFO 9936 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2020-12-23 09:37:59.616  INFO 9936 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#34780cd9:0/SimpleConnection@3d0cac1f [delegate=amqp://guest@127.0.0.1:5672//test, localPort= 64991]
+2020-12-23 09:37:59.701  INFO 9936 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-23 09:39:33.721  INFO 8384 --- [main] .d.p.TestRabbitmqProductApplicationTests : Starting TestRabbitmqProductApplicationTests on PC-20201113KRFY with PID 8384 (started by Administrator in E:\test-code\test-rabbitmq\test-rabbitmq-product)
+2020-12-23 09:39:33.722 DEBUG 8384 --- [main] .d.p.TestRabbitmqProductApplicationTests : Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-12-23 09:39:33.723  INFO 8384 --- [main] .d.p.TestRabbitmqProductApplicationTests : No active profile set, falling back to default profiles: default
+2020-12-23 09:39:34.226  WARN 8384 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[top.dongxibao.product]' package. Please check your configuration.
+2020-12-23 09:39:34.773  INFO 8384 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-23 09:39:36.035  INFO 8384 --- [main] .d.p.TestRabbitmqProductApplicationTests : Started TestRabbitmqProductApplicationTests in 2.657 seconds (JVM running for 3.451)
+2020-12-23 09:39:36.177  INFO 8384 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2020-12-23 09:39:36.226  INFO 8384 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#623ebac7:0/SimpleConnection@3e8b3b79 [delegate=amqp://guest@127.0.0.1:5672//test, localPort= 65068]
+2020-12-23 09:39:36.289  INFO 8384 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-23 10:20:40.778  INFO 16448 --- [main] .d.p.TestRabbitmqProductApplicationTests : Starting TestRabbitmqProductApplicationTests on PC-20201113KRFY with PID 16448 (started by Administrator in E:\test-code\test-rabbitmq\test-rabbitmq-product)
+2020-12-23 10:20:40.779 DEBUG 16448 --- [main] .d.p.TestRabbitmqProductApplicationTests : Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-12-23 10:20:40.779  INFO 16448 --- [main] .d.p.TestRabbitmqProductApplicationTests : No active profile set, falling back to default profiles: default
+2020-12-23 10:20:41.323  WARN 16448 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[top.dongxibao.product]' package. Please check your configuration.
+2020-12-23 10:20:42.582  INFO 16448 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-23 10:20:43.372  INFO 16448 --- [main] .d.p.TestRabbitmqProductApplicationTests : Started TestRabbitmqProductApplicationTests in 3.02 seconds (JVM running for 3.856)
+2020-12-23 10:20:43.533  INFO 16448 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2020-12-23 10:20:43.581  INFO 16448 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#77e7246b:0/SimpleConnection@3b95a6db [delegate=amqp://guest@127.0.0.1:5672//test, localPort= 50987]
+2020-12-23 10:20:43.742  INFO 16448 --- [rabbitConnectionFactory1] t.d.product.config.RabbitMQConfig        : confirm...correlationData[null]==>ack:[true]==>cause:[null]
+2020-12-23 10:20:43.756  INFO 16448 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-23 10:22:18.357  INFO 16204 --- [main] .d.p.TestRabbitmqProductApplicationTests : Starting TestRabbitmqProductApplicationTests on PC-20201113KRFY with PID 16204 (started by Administrator in E:\test-code\test-rabbitmq\test-rabbitmq-product)
+2020-12-23 10:22:18.358 DEBUG 16204 --- [main] .d.p.TestRabbitmqProductApplicationTests : Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-12-23 10:22:18.359  INFO 16204 --- [main] .d.p.TestRabbitmqProductApplicationTests : No active profile set, falling back to default profiles: default
+2020-12-23 10:22:19.000  WARN 16204 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[top.dongxibao.product]' package. Please check your configuration.
+2020-12-23 10:22:20.185  INFO 16204 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-23 10:22:20.912  INFO 16204 --- [main] .d.p.TestRabbitmqProductApplicationTests : Started TestRabbitmqProductApplicationTests in 2.936 seconds (JVM running for 3.729)
+2020-12-23 10:22:21.075  INFO 16204 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2020-12-23 10:22:21.121  INFO 16204 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#4726927c:0/SimpleConnection@1e692555 [delegate=amqp://guest@127.0.0.1:5672//test, localPort= 51079]
+2020-12-23 10:22:21.189  INFO 16204 --- [rabbitConnectionFactory1] t.d.product.config.RabbitMQConfig        : confirm...correlationData[null]==>ack:[true]==>cause:[null]
+2020-12-23 10:22:21.204  INFO 16204 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-23 10:34:24.841  INFO 19408 --- [main] .d.p.TestRabbitmqProductApplicationTests : Starting TestRabbitmqProductApplicationTests on PC-20201113KRFY with PID 19408 (started by Administrator in E:\test-code\test-rabbitmq\test-rabbitmq-product)
+2020-12-23 10:34:24.843 DEBUG 19408 --- [main] .d.p.TestRabbitmqProductApplicationTests : Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-12-23 10:34:24.843  INFO 19408 --- [main] .d.p.TestRabbitmqProductApplicationTests : No active profile set, falling back to default profiles: default
+2020-12-23 10:34:25.460  WARN 19408 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[top.dongxibao.product]' package. Please check your configuration.
+2020-12-23 10:34:26.713  INFO 19408 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-23 10:34:27.532  INFO 19408 --- [main] .d.p.TestRabbitmqProductApplicationTests : Started TestRabbitmqProductApplicationTests in 3.12 seconds (JVM running for 3.99)
+2020-12-23 10:34:27.692  INFO 19408 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2020-12-23 10:34:27.737  INFO 19408 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#244e619a:0/SimpleConnection@431e86b1 [delegate=amqp://guest@127.0.0.1:5672//test, localPort= 51878]
+2020-12-23 10:34:27.812  INFO 19408 --- [rabbitConnectionFactory1] t.d.product.config.RabbitMQConfig        : confirm...correlationData[null]==>ack:[true]==>cause:[null]
+2020-12-23 10:34:27.825  INFO 19408 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-23 10:34:58.834  INFO 10672 --- [main] .d.p.TestRabbitmqProductApplicationTests : Starting TestRabbitmqProductApplicationTests on PC-20201113KRFY with PID 10672 (started by Administrator in E:\test-code\test-rabbitmq\test-rabbitmq-product)
+2020-12-23 10:34:58.835 DEBUG 10672 --- [main] .d.p.TestRabbitmqProductApplicationTests : Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-12-23 10:34:58.835  INFO 10672 --- [main] .d.p.TestRabbitmqProductApplicationTests : No active profile set, falling back to default profiles: default
+2020-12-23 10:34:59.413  WARN 10672 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[top.dongxibao.product]' package. Please check your configuration.
+2020-12-23 10:35:00.828  INFO 10672 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-23 10:35:01.867  INFO 10672 --- [main] .d.p.TestRabbitmqProductApplicationTests : Started TestRabbitmqProductApplicationTests in 3.391 seconds (JVM running for 4.538)
+2020-12-23 10:35:02.104  INFO 10672 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2020-12-23 10:35:02.166  INFO 10672 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#485caa8f:0/SimpleConnection@729cd862 [delegate=amqp://guest@127.0.0.1:5672//test, localPort= 51910]
+2020-12-23 10:35:02.248  INFO 10672 --- [rabbitConnectionFactory1] t.d.product.config.RabbitMQConfig        : confirm...correlationData[null]==>ack:[true]==>cause:[null]
+2020-12-23 10:35:02.274  INFO 10672 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-23 10:36:19.821  INFO 14540 --- [main] .d.p.TestRabbitmqProductApplicationTests : Starting TestRabbitmqProductApplicationTests on PC-20201113KRFY with PID 14540 (started by Administrator in E:\test-code\test-rabbitmq\test-rabbitmq-product)
+2020-12-23 10:36:19.822 DEBUG 14540 --- [main] .d.p.TestRabbitmqProductApplicationTests : Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-12-23 10:36:19.823  INFO 14540 --- [main] .d.p.TestRabbitmqProductApplicationTests : No active profile set, falling back to default profiles: default
+2020-12-23 10:36:20.360  WARN 14540 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[top.dongxibao.product]' package. Please check your configuration.
+2020-12-23 10:36:21.574  INFO 14540 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-23 10:36:22.312  INFO 14540 --- [main] .d.p.TestRabbitmqProductApplicationTests : Started TestRabbitmqProductApplicationTests in 2.818 seconds (JVM running for 3.688)
+2020-12-23 10:36:22.485  INFO 14540 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2020-12-23 10:36:22.532  INFO 14540 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#244e619a:0/SimpleConnection@431e86b1 [delegate=amqp://guest@127.0.0.1:5672//test, localPort= 51994]
+2020-12-23 10:36:22.604  INFO 14540 --- [rabbitConnectionFactory1] t.d.product.config.RabbitMQConfig        : confirm...correlationData[null]==>ack:[true]==>cause:[null]
+2020-12-23 10:36:22.617  INFO 14540 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-23 10:37:17.792  INFO 22660 --- [main] .d.p.TestRabbitmqProductApplicationTests : Starting TestRabbitmqProductApplicationTests on PC-20201113KRFY with PID 22660 (started by Administrator in E:\test-code\test-rabbitmq\test-rabbitmq-product)
+2020-12-23 10:37:17.792 DEBUG 22660 --- [main] .d.p.TestRabbitmqProductApplicationTests : Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-12-23 10:37:17.793  INFO 22660 --- [main] .d.p.TestRabbitmqProductApplicationTests : No active profile set, falling back to default profiles: default
+2020-12-23 10:37:18.321  WARN 22660 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[top.dongxibao.product]' package. Please check your configuration.
+2020-12-23 10:37:19.547  INFO 22660 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-23 10:37:20.305  INFO 22660 --- [main] .d.p.TestRabbitmqProductApplicationTests : Started TestRabbitmqProductApplicationTests in 2.848 seconds (JVM running for 3.664)
+2020-12-23 10:37:20.469  INFO 22660 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2020-12-23 10:37:20.515  INFO 22660 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#244e619a:0/SimpleConnection@431e86b1 [delegate=amqp://guest@127.0.0.1:5672//test, localPort= 52040]
+2020-12-23 10:37:20.592  INFO 22660 --- [rabbitConnectionFactory1] t.d.product.config.RabbitMQConfig        : confirm...correlationData[null]==>ack:[true]==>cause:[null]
+2020-12-23 10:37:20.607  INFO 22660 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-23 10:39:25.981  INFO 19816 --- [main] .d.p.TestRabbitmqProductApplicationTests : Starting TestRabbitmqProductApplicationTests on PC-20201113KRFY with PID 19816 (started by Administrator in E:\test-code\test-rabbitmq\test-rabbitmq-product)
+2020-12-23 10:39:25.982 DEBUG 19816 --- [main] .d.p.TestRabbitmqProductApplicationTests : Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-12-23 10:39:25.983  INFO 19816 --- [main] .d.p.TestRabbitmqProductApplicationTests : No active profile set, falling back to default profiles: default
+2020-12-23 10:39:26.520  WARN 19816 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[top.dongxibao.product]' package. Please check your configuration.
+2020-12-23 10:39:27.756  INFO 19816 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-23 10:39:28.497  INFO 19816 --- [main] .d.p.TestRabbitmqProductApplicationTests : Started TestRabbitmqProductApplicationTests in 2.889 seconds (JVM running for 3.725)
+2020-12-23 10:39:28.659  INFO 19816 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2020-12-23 10:39:28.704  INFO 19816 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#244e619a:0/SimpleConnection@431e86b1 [delegate=amqp://guest@127.0.0.1:5672//test, localPort= 52166]
+2020-12-23 10:39:28.773  INFO 19816 --- [rabbitConnectionFactory1] t.d.product.config.RabbitMQConfig        : confirm...correlationData[null]==>ack:[true]==>cause:[null]
+2020-12-23 10:39:28.786  INFO 19816 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-23 11:53:17.936  INFO 10284 --- [main] t.d.product.OrderDlxExchangeTest         : Starting OrderDlxExchangeTest on PC-20201113KRFY with PID 10284 (started by Administrator in E:\test-code\test-rabbitmq\test-rabbitmq-product)
+2020-12-23 11:53:17.937 DEBUG 10284 --- [main] t.d.product.OrderDlxExchangeTest         : Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-12-23 11:53:17.938  INFO 10284 --- [main] t.d.product.OrderDlxExchangeTest         : No active profile set, falling back to default profiles: default
+2020-12-23 11:53:18.593  WARN 10284 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[top.dongxibao.product]' package. Please check your configuration.
+2020-12-23 11:53:19.954  INFO 10284 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-23 11:53:20.804  INFO 10284 --- [main] t.d.product.OrderDlxExchangeTest         : Started OrderDlxExchangeTest in 3.402 seconds (JVM running for 4.331)
+2020-12-23 11:53:21.036  INFO 10284 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2020-12-23 11:53:21.110  INFO 10284 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#20411320:0/SimpleConnection@43c57161 [delegate=amqp://guest@127.0.0.1:5672//test, localPort= 55462]
+2020-12-23 11:53:21.166 ERROR 10284 --- [AMQP Connection 127.0.0.1:5672] o.s.a.r.c.CachingConnectionFactory       : Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'order.delay.queue' in vhost '/test': received '6000' but current is '8000', class-id=50, method-id=10)
+2020-12-23 11:53:22.191 ERROR 10284 --- [AMQP Connection 127.0.0.1:5672] o.s.a.r.c.CachingConnectionFactory       : Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'order.delay.queue' in vhost '/test': received '6000' but current is '8000', class-id=50, method-id=10)
+2020-12-23 11:53:24.210 ERROR 10284 --- [AMQP Connection 127.0.0.1:5672] o.s.a.r.c.CachingConnectionFactory       : Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'order.delay.queue' in vhost '/test': received '6000' but current is '8000', class-id=50, method-id=10)
+2020-12-23 11:53:28.237 ERROR 10284 --- [AMQP Connection 127.0.0.1:5672] o.s.a.r.c.CachingConnectionFactory       : Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'order.delay.queue' in vhost '/test': received '6000' but current is '8000', class-id=50, method-id=10)
+2020-12-23 11:53:33.260 ERROR 10284 --- [AMQP Connection 127.0.0.1:5672] o.s.a.r.c.CachingConnectionFactory       : Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'order.delay.queue' in vhost '/test': received '6000' but current is '8000', class-id=50, method-id=10)
+2020-12-23 11:53:33.291  INFO 10284 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-23 11:54:01.258  INFO 23952 --- [main] t.d.product.OrderDlxExchangeTest         : Starting OrderDlxExchangeTest on PC-20201113KRFY with PID 23952 (started by Administrator in E:\test-code\test-rabbitmq\test-rabbitmq-product)
+2020-12-23 11:54:01.260 DEBUG 23952 --- [main] t.d.product.OrderDlxExchangeTest         : Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-12-23 11:54:01.260  INFO 23952 --- [main] t.d.product.OrderDlxExchangeTest         : No active profile set, falling back to default profiles: default
+2020-12-23 11:54:01.896  WARN 23952 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[top.dongxibao.product]' package. Please check your configuration.
+2020-12-23 11:54:03.119  INFO 23952 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-23 11:54:03.924  INFO 23952 --- [main] t.d.product.OrderDlxExchangeTest         : Started OrderDlxExchangeTest in 3.078 seconds (JVM running for 3.916)
+2020-12-23 11:54:04.091  INFO 23952 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2020-12-23 11:54:04.135  INFO 23952 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#6ab7ce48:0/SimpleConnection@76544c0a [delegate=amqp://guest@127.0.0.1:5672//test, localPort= 55545]
+2020-12-23 11:54:04.291  INFO 23952 --- [rabbitConnectionFactory1] t.d.product.config.RabbitMQConfig        : confirm...correlationData[null]==>ack:[true]==>cause:[null]
+2020-12-23 11:54:04.306  INFO 23952 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-23 11:57:36.875  INFO 15396 --- [main] t.d.product.OrderDlxExchangeTest         : Starting OrderDlxExchangeTest on PC-20201113KRFY with PID 15396 (started by Administrator in E:\test-code\test-rabbitmq\test-rabbitmq-product)
+2020-12-23 11:57:36.877 DEBUG 15396 --- [main] t.d.product.OrderDlxExchangeTest         : Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-12-23 11:57:36.878  INFO 15396 --- [main] t.d.product.OrderDlxExchangeTest         : No active profile set, falling back to default profiles: default
+2020-12-23 11:57:37.436  WARN 15396 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[top.dongxibao.product]' package. Please check your configuration.
+2020-12-23 11:57:38.641  INFO 15396 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-23 11:57:39.376  INFO 15396 --- [main] t.d.product.OrderDlxExchangeTest         : Started OrderDlxExchangeTest in 2.958 seconds (JVM running for 3.77)
+2020-12-23 11:57:39.556  INFO 15396 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2020-12-23 11:57:39.610  INFO 15396 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#20411320:0/SimpleConnection@43c57161 [delegate=amqp://guest@127.0.0.1:5672//test, localPort= 55746]
+2020-12-23 11:57:39.689  INFO 15396 --- [rabbitConnectionFactory1] t.d.product.config.RabbitMQConfig        : confirm...correlationData[null]==>ack:[true]==>cause:[null]
+2020-12-23 11:57:39.705  INFO 15396 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
